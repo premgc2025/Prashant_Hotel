@@ -1,5 +1,5 @@
 
-import './footer.css'
+import './Footer.css'
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
 import { FaFacebook } from "react-icons/fa";

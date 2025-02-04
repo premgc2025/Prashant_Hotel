@@ -1,10 +1,9 @@
 import React from 'react';
-import RoomCard from '../components/RoomCard';
-import { useState,useEffect } from 'react';
 import '../components/PhotoPagination.css' 
 import './Home.css';
 import ImageCarousel from '../components/ImageCarousel';
 import Chatbot from '../components/Chatbot';
+import RoomCard from '../components/Roomcard';
 
 const rooms = [
   { id: 1, name: 'Standard Room', price: 1000, description: 'A comfortable room with basic amenities.', image: './images/standard_room.jpg' },
@@ -29,10 +28,9 @@ const Home = () => {
     
   
   return (
-    < >
+    < > 
+   
     <ImageCarousel images={images}/>
-
-
     <div className="home" id="/">
       <h1>Welcome to Our Hotel</h1>
       <div className="room-list">

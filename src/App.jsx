@@ -4,14 +4,15 @@ import Home from './pages/Home';
 import Booking from './pages/Booking';
 
 import Footer from './components/Footer';
-import Navbar from './components/NavBar';
+
 import About from './pages/About';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <Router>
-      <Navbar/>
+      <Navbar/>   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/booking" element={<Booking />} />
